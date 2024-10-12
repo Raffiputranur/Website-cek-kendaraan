@@ -1,0 +1,80 @@
+<html>
+    <title>https://cek kendaraan.com</title>
+    
+    <body bgcolor="purple" widht = "1000px" height = "1000px">
+        <div class="containear">
+        <center> <img src="logo_rrrns-removebg-preview.png" alt="rrrns" width="500px" height="600px"></center> <img src="KARBU PE 24.jpg" alt="karbu" width="200px" height="200px">
+            <marquee>CEK KENDARAAN JANGAN LUPA </marquee>
+<center><img src="motor.jpg"
+    width="200px" height="300px"></center>
+<h2><center><code C70</center></h2>
+<button onclick="TampilkanLogin()">LOGIN</button> 
+<ul id="LOGIN" style="display: none">
+    <table>
+        <tr>
+            <td>No kendaraam</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>password</td>
+            <td><input type="password"></td>
+        </tr>
+    </table>
+</ul>
+<script>
+    function TampilkanLogin(){
+        var LOGIN =document.getElementById("LOGIN");
+        LOGIN.style.display = "block";
+    }
+</script>
+<button onclick="TampilkanRegister()">REGISTER</button>
+<ul id="REGISTER" style="display: none">
+    <table>
+    <tr>
+            <td>No Kendaraan</td>
+            <td><input type="angka"></td>
+    </tr>
+    <tr>
+            <td>Paswword</td>
+            <td><input type="password"></td>
+    </tr>
+    
+    <tr>
+        <td>No Mesin</td>
+        <td><input type="angka"></td>
+    </tr>
+    <tr>
+        <td>No Rangka</td>
+        <td><input type="angka"></td>
+    </tr>
+    <tr>
+        <td>Warna Kendaraan</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Merek Kendaraan</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Jenis Kendaraan</td>
+        <td><input type="angka"></td>
+    </tr>
+    <tr>
+        <td>Bahan Bakar</td>
+        <td><input type="angka"></td>
+       
+    </table>
+<button onclick="TampilkanSimpan()">SIMPAN</button>
+
+</ul>
+<script>
+    function TampilkanRegister(){
+        var REGISTER = document.getElementById("REGISTER");
+        REGISTER.style.display = "block";
+    }
+</script>
+
+        </div>
+
+</body>
+</html>
